@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happiness Garden Nursery - Products</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+Gujarati&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="products.js"></script>
+    <style>
+      /* Hero Section */
+      .hero {
+        /* margin-top: 80px; */
+        min-height: 27rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 40px 10%;
+        background-image: linear-gradient(
+            rgb(97 100 99 / 29%),
+            rgb(97 100 99 / 33%)
+          ),
+          url("https://images.pexels.com/photos/259463/pexels-photo-259463.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        gap: 40px;
+        color: #e8f6ef;
+      }
+      .hero-left h1 {
+        font-size: 2.8rem;
+        color: #e8f6ef;
+      }
+      .hero-left p {
+        margin: 15px 0 25px;
+        font-size: 1.1rem;
+        color: #e8f6ef;
+      }
+      .hero-btn {
+        display: inline-block;
+        background: var(--green);
+        color: white;
+        backdrop-filter: blur(6px);
+        padding: 12px 28px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+      }
+      .hero-btn:hover {
+        background: var(--green);
+        color: white;
+      }
+      .hero-right img {
+        width: 100%;
+        border-radius: 16px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        transition: transform 0.4s ease;
+      }
+      .hero-right img:hover {
+        transform: scale(1.03);
+      }
+
+      /* Controls */
+      .controls {
+        text-align: center;
+        padding: 40px 0 20px;
+        background: #2c9f670f;
+      }
+      .search-box input {
+        padding: 10px 14px;
+        width: 280px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        margin-bottom: 15px;
+        outline: none;
+      }
+      .filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+      }
+      .filter-bar button {
+        padding: 8px 16px;
+        border: 0;
+        border-radius: 20px;
+        cursor: pointer;
+        background: #2c9f674f;
+        font-weight: 600;
+        transition: all 0.3s;
+      }
+      .filter-bar button.active,
+      .filter-bar button:hover {
+        background: var(--green);
+        color: white;
+      }
+
+      /* Grid */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 20px;
+        padding: 0 7rem 50px;
+        background: #2c9f670f;
+      }
+      .card {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        position: relative;
+        height: 17.5rem;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+      }
+      .card img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+        transition: transform 0.4s;
+      }
+      .card:hover img {
+        transform: scale(1.05);
+      }
+      .card h3 {
+        color: var(--green);
+        margin: 10px 0 4px;
+      }
+      .card .guj {
+        color: var(--muted);
+        font-weight: 600;
+      }
+      .price-tag {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #ffffff;
+        color: #0f7214;
+        padding: 4px 8px;
+        border-radius: 6px;
+        font-size: 1rem;
+        font-weight: 900;
+        box-shadow: 0 2px 5px 4px rgb(27 2 2) !important;
+      }
+      button.view-more-btn {
+        padding: 6px 18px;
+        width: 50%;
+        margin-top: 5px;
+        cursor: pointer;
+      }
+
+      @keyframes slideLeft {
+        from {
+          transform: translateX(-50px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      .card.fruit {
+        animation: slideLeft 0.8s ease forwards;
+        transition: transform 0.4s ease;
+      }
+      .card.fruit:hover {
+        transform: translateX(15px);
+      }
+
+      /* Indoor - Oxygen bubble hover */
+      /* Indoor - Oxygen bubble rising hover effect */
+      @keyframes bubbleFloat {
+        0% {
+          transform: translateY(100%) scale(0.8);
+          opacity: 0;
+        }
+        50% {
+          opacity: 0.8;
+        }
+        100% {
+          transform: translateY(-120%) scale(1.6);
+          opacity: 0;
+        }
+      }
+
+      .card.indoor {
+        position: relative;
+        overflow: hidden; /* Keep bubbles inside card */
+      }
+
+      .card.indoor .bubble {
+        position: absolute;
+        bottom: 100px; /* Start slightly below card */
+        background-image: url(https://cdn-icons-png.flaticon.com/128/5969/5969393.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0;
+        animation: bubbleFloat 20s linear infinite;
+      }
+
+      .card.indoor:hover .bubble {
+        opacity: 1;
+      }
+
+      /* Outdoor - Birds flying hover */
+      @keyframes flyBirds {
+        0% {
+          transform: translateX(-30px) translateY(0);
+          opacity: 0;
+        }
+        30% {
+          opacity: 1;
+        }
+        100% {
+          transform: translateX(150px) translateY(-30px);
+          opacity: 0;
+        }
+      }
+      .card.outdoor {
+        position: relative;
+        overflow: hidden;
+      }
+      .card.outdoor:hover::before {
+        content: "🕊️";
+        position: absolute;
+        font-size: 20px;
+        top: 20px;
+        left: -30px;
+        animation: flyBirds 2s linear infinite;
+      }
+
+      /* Decorative - Bounce in + Badge */
+
+      .card.decorative {
+        border: 2px dashed var(--green);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Happiness Garden</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="products.html">Products</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="care_tips.html">Tips</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="margin-top: 3.6rem">
+      <div class="hero-left">
+        <h1>Fresh & Green Plant Collection</h1>
+        <p>
+          Discover our 46+ varieties of Fruit, Indoor, Outdoor, and Decorative
+          plants. Perfect for your garden or home décor.
+        </p>
+        <a href="#products-section" class="hero-btn">Browse All Products</a>
+      </div>
+      <div class="hero-right">
+        <img
+          src="https://images.pexels.com/photos/3097769/pexels-photo-3097769.jpeg"
+          alt="Nursery Plants"
+        />
+      </div>
+    </section>
+
+    <!-- Controls -->
+    <div id="products-section" class="controls">
+      <div class="search-box">
+        <input type="text" id="search" placeholder="Search plant Name" />
+      </div>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-plantype="all">All</button>
+        <button class="filter-btn" data-plantype="fruit">Fruit Plants</button>
+        <button class="filter-btn" data-plantype="indoor">Indoor Plants</button>
+        <button class="filter-btn" data-plantype="outdoor">
+          Outdoor Plants
+        </button>
+        <button class="filter-btn" data-plantype="flower">Flower Plants</button>
+        <button class="filter-btn" data-plantype="decorative">
+          Decorative
+        </button>
+        <button class="filter-btn" data-plantype="herb">Herbs</button>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="grid" id="productGrid"></div>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2025 Happiness Garden | Follow us:
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+        <a href="#">WhatsApp</a>
+      </p>
+    </footer>
+    <script>
+      let products = [];
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const grid = document.getElementById("productGrid");
+        products = window.productsData; // data from products.js
+        renderProducts(products);
+        updateActiveLabel(products); // show count for 'All' initially
+
+        // Search Functionality
+        document.getElementById("search").addEventListener("input", (e) => {
+          const term = e.target.value.toLowerCase();
+          const activeBtn = document.querySelector(".filter-btn.active");
+          const cat = activeBtn.dataset.plantype;
+
+          const filtered = products.filter(
+            (p) =>
+              (p.name.toLowerCase().includes(term) ||
+                p.price.toString().includes(term)) &&
+              (cat === "all" || p.plantype === cat)
+          );
+
+          renderProducts(filtered);
+          updateActiveLabel(filtered);
+        });
+
+        // Filter Buttons
+        document.querySelectorAll(".filter-btn").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            document
+              .querySelector(".filter-btn.active")
+              .classList.remove("active");
+            btn.classList.add("active");
+
+            const cat = btn.dataset.plantype;
+            const term = document.getElementById("search").value.toLowerCase();
+
+            const filtered =
+              cat === "all"
+                ? products.filter(
+                    (p) =>
+                      p.name.toLowerCase().includes(term) ||
+                      p.price.toString().includes(term)
+                  )
+                : products.filter(
+                    (p) =>
+                      (p.name.toLowerCase().includes(term) ||
+                        p.price.toString().includes(term)) &&
+                      p.plantype === cat
+                  );
+
+            renderProducts(filtered);
+            updateActiveLabel(filtered);
+          });
+        });
+
+        function renderProducts(list) {
+          grid.innerHTML = "";
+          list.forEach((p) => {
+            const card = document.createElement("div");
+            card.className = `card ${p.plantype}`;
+            card.innerHTML = `
+          <span class="price-tag">₹${p.price}</span>
+          <div style="height: 170px;">
+            <img src="${p.image}" alt="${p.name}">
+          </div>
+          <h3>${p.name}</h3>
+          <button class="view-more-btn hero-btn">View More</button>
+        `;
+            card
+              .querySelector(".view-more-btn")
+              .addEventListener("click", (event) => {
+                event.stopPropagation();
+                window.location.href = `product-details.html?id=${p.id}`;
+              });
+            grid.appendChild(card);
+          });
+
+          // Add bubbles to indoor cards
+          document.querySelectorAll(".card.indoor").forEach((card) => {
+            for (let i = 0; i < 4; i++) {
+              let bubble = document.createElement("div");
+              bubble.classList.add("bubble");
+              bubble.style.left = Math.random() * 90 + "%";
+              bubble.style.animationDelay = Math.random() * 4 + "s";
+              bubble.style.width = bubble.style.height =
+                15 + Math.random() * 15 + "px";
+              card.appendChild(bubble);
+            }
+          });
+        }
+
+        // ✅ Update only active button label with count
+        function updateActiveLabel(list) {
+          document.querySelectorAll(".filter-btn").forEach((b) => {
+            b.textContent =
+              b.dataset.plantype === "all"
+                ? "All"
+                : b.textContent.replace(/\(\d+\)/, "").trim();
+          });
+
+          const activeBtn = document.querySelector(".filter-btn.active");
+          const baseLabel =
+            activeBtn.dataset.plantype === "all"
+              ? "All"
+              : activeBtn.textContent.replace(/\(\d+\)/, "").trim();
+          activeBtn.textContent = `${baseLabel} (${list.length})`;
+        }
+      });
+    </script>
+
+    <!-- <script>
+      let products = [];
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const grid = document.getElementById("productGrid");
+        products = window.productsData; // data from products.js
+        renderProducts(products);
+
+        // Search Functionality
+        document.getElementById("search").addEventListener("input", (e) => {
+          const term = e.target.value.toLowerCase();
+          const filtered = products.filter(
+            (p) =>
+              p.name.toLowerCase().includes(term) ||
+              p.price.toString().includes(term)
+          );
+          renderProducts(filtered);
+        });
+
+        // Filter Buttons
+        document.querySelectorAll(".filter-btn").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            document
+              .querySelector(".filter-btn.active")
+              .classList.remove("active");
+            btn.classList.add("active");
+            const cat = btn.dataset.plantype;
+            const filtered =
+              cat === "all"
+                ? products
+                : products.filter((p) => p.plantype === cat);
+            renderProducts(filtered);
+          });
+        });
+
+        function renderProducts(list) {
+          grid.innerHTML = "";
+          list.forEach((p) => {
+            const card = document.createElement("div");
+            card.className = `card ${p.plantype}`;
+            // card.className = "card";
+            card.innerHTML = `
+            <span class="price-tag">₹${p.price}</span>
+            <div style="height: 170px;">
+            <img src="${p.image}" alt="${p.name}">
+            </div>
+            <h3>${p.name} </h3>
+            <button class="view-more-btn hero-btn" >  View More </button>
+          `;
+            card
+              .querySelector(".view-more-btn")
+              .addEventListener("click", (event) => {
+                event.stopPropagation(); // Prevent card click if you keep it
+                window.location.href = `product-details.html?id=${p.id}`;
+              });
+            grid.appendChild(card);
+          });
+          // Add bubbles to each indoor card
+          document.querySelectorAll(".card.indoor").forEach((card) => {
+            for (let i = 0; i < 4; i++) {
+              // 8 bubbles per card
+              let bubble = document.createElement("div");
+              bubble.classList.add("bubble");
+              bubble.style.left = Math.random() * 90 + "%"; // random horizontal position
+              bubble.style.animationDelay = Math.random() * 4 + "s"; // staggered timing
+              bubble.style.width = bubble.style.height =
+                15 + Math.random() * 15 + "px"; // random size
+              card.appendChild(bubble);
+            }
+          });
+        }
+      });
+    </script> -->
+  </body>
+</html>

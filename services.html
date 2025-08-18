@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Happiness Garden — Our Services</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+Gujarati&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      header {
+        height: 27rem;
+        background: linear-gradient(rgb(97 100 99 / 29%), rgb(97 100 99 / 33%)),
+          /* overlay color with opacity */
+            url(https://images.ctfassets.net/5kq8dse7hipf/7KYjuxQuy7wYHJ7zlJHyAN/2339e4e7387fa6148429c989bc4a4da6/Garden-maintenance-cost.jpg)
+            no-repeat center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #e8f6ef;
+        text-align: center;
+        padding: 0 20px;
+      }
+      header {
+        font-size: 3rem;
+        font-weight: 700;
+        text-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+      }
+      header p {
+        max-width: 700px;
+        font-size: 1rem;
+        margin: 20px auto;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      .container {
+        max-width: 1100px;
+        margin: 32px auto;
+        padding: 24px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 18px;
+        margin-top: 22px;
+      }
+      .service {
+        background: var(--card);
+        border-radius: 12px;
+        padding: 14px;
+        box-shadow: 0 8px 20px rgba(15, 40, 20, 0.06);
+        border: 1px solid rgba(10, 10, 10, 0.03);
+      }
+      .service img {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+      .service h3 {
+        margin: 10px 0 6px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #2e7d32;
+      }
+      .desc {
+        margin: 0 0 8px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .service ul {
+        margin: 0;
+        padding-left: 18px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .service ul li {
+        margin-bottom: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Happiness Garden</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li class="active"><a href="services.html">Services</a></li>
+        <li><a href="care_tips.html">Tips</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </nav>
+    <header style="margin-top: 3.6rem">
+      <div>Our Services</div>
+      <p>
+        Transforming spaces into green havens with creative, sustainable, and
+        elegant plant solutions.
+      </p>
+    </header>
+    <div class="container">
+      <section class="grid" aria-label="services">
+        <article class="service">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi8sxmMA7njbSSl3Jlrp75hGsuxdcT8THfHRMBr8hczPVm6o91Fva9XQjX9ETO_x-cwjU&usqp=CAU"
+            alt="plants-gifts"
+          />
+          <h3>Plants & Seeds Return Gifts</h3>
+          <div class="desc">
+            Eco-friendly event gifts — customizable pots, seed packets and
+            branded plant tags for weddings, conferences and more.
+          </div>
+          <ul>
+            <li>Customizable plant pots</li>
+            <li>Seed packets with event branding</li>
+            <li>Eco hampers with plants & organic products</li>
+            <li>Event-specific plant themes</li>
+            <li>Packaging in eco-friendly materials</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <img
+            src="https://cloudimage.homeonline.com/855x451/public/uploads/gallery/articles/lead__461975594.jpg"
+            alt="landscaping"
+          />
+          <h3>Landscaping</h3>
+          <div class="desc">
+            Garden design, lawn setup, pathways, water features and seasonal
+            planting for hotels, resorts, offices and homes.
+          </div>
+          <ul>
+            <li>Garden design for all spaces</li>
+            <li>Lawn development & maintenance</li>
+            <li>Pathway & fountain installation</li>
+            <li>Seasonal flower bed setup</li>
+            <li>Rock garden & decorative features</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <img
+            src="https://st.hzcdn.com/simgs/f1d1dda50b3c6497_14-4900/_.jpg"
+            alt="terrace-garden"
+          />
+          <h3>Terrace Gardening</h3>
+          <div class="desc">
+            Rooftop kitchen gardens, shade-net solutions, raised beds and
+            efficient irrigation to maximize yield and beauty.
+          </div>
+          <ul>
+            <li>Rooftop vegetable & herb gardens</li>
+            <li>Shade-net & protective covers</li>
+            <li>Raised bed installations</li>
+            <li>Drip irrigation systems</li>
+            <li>Seasonal plant rotation</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <img
+            src="https://www.hars.com.tr/upload/organiktarim-1162x700.jpg"
+            alt="organic-farming"
+          />
+          <h3>Organic Farming</h3>
+          <div class="desc">
+            Consulting & setup for organic cultivation — soil enrichment,
+            composting, crop planning and farm-to-table support.
+          </div>
+          <ul>
+            <li>Organic crop planning</li>
+            <li>Soil testing & enrichment</li>
+            <li>Composting solutions</li>
+            <li>Pest control naturally</li>
+            <li>Farm-to-table consultation</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <img
+            src="https://blog.sfapp.magefan.top/media/urban-plant-india.myshopify.com/images/How%20To%20Start%20Growing%20Vegetables%20On%20Your%20Apartments%20Balcony/Balcony-Vegetable-Garden.jpg"
+            alt="balcony-garden"
+          />
+          <h3>Balcony Gardening</h3>
+          <div class="desc">
+            Space-saving solutions: hanging pots, railing planters,
+            mini-vegetable setups and decorative flowering arrangements.
+          </div>
+          <ul>
+            <li>Space-saving vertical racks</li>
+            <li>Hanging pots & railing planters</li>
+            <li>Mini vegetable setups</li>
+            <li>Flower arrangements</li>
+            <li>Indoor-outdoor plant combos</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRci8F-raVpZ6XT_2tg0iowjlVN4kQVwpyUg&s"
+            alt="vertical-garden"
+          />
+          <h3>Vertical Gardening</h3>
+          <div class="desc">
+            Green walls & modular vertical systems for interiors and exteriors —
+            ideal for banks, lobbies and narrow spaces.
+          </div>
+          <ul>
+            <li>Indoor & outdoor green walls</li>
+            <li>Air-purifying plant selection</li>
+            <li>Modular wall systems</li>
+            <li>Moss & decorative panels</li>
+            <li>Maintenance contracts</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <img
+            src="https://dam.thdstatic.com/content/production/YFOtnxIrlQXYVVoy9fwPuw/Gysb8k8Lei9rcFbFz-oX2g/Original%20file/28B_FutureExistingFY24_Future%20Plant%20Parent_L.jpg?im=Crop,rect=(-0.15935332848155875,211.95112179487197,8195.006231001706,5120)"
+            alt="green-decor"
+          />
+          <h3>Green Decoration for Hotels, Banks & Homes</h3>
+          <div class="desc">
+            Lobby plants, reception greening, poolside and banquet décor —
+            seasonal & event-specific plant displays.
+          </div>
+          <ul>
+            <li>Lobby & reception décor</li>
+            <li>Poolside plant arrangements</li>
+            <li>Event-specific themes</li>
+            <li>Seasonal décor updates</li>
+            <li>Custom plant displays</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjFlaVM1nDar8PoF0WHnGUyFipAPRbpiYlNw&s"
+            alt="bulk-orders"
+          />
+          <h3>Bulk Order & Wholesale Services</h3>
+          <div class="desc">
+            Wholesale plant supply, plant rentals and complete green décor for
+            marriage halls, conference venues and resellers.
+          </div>
+          <ul>
+            <li>Wholesale plant supply</li>
+            <li>Plant rentals for events</li>
+            <li>Marriage & banquet hall décor</li>
+            <li>Conference venue greening</li>
+            <li>Seasonal plant deals</li>
+          </ul>
+        </article>
+      </section>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2025 Happiness Garden | Follow us:
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+        <a href="#">WhatsApp</a>
+      </p>
+    </footer>
+  </body>
+</html>

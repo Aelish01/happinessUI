@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Happiness Garden Nursery — FAQs</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+Gujarati&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <style>
+      header {
+        height: 27rem;
+        background: linear-gradient(rgb(97 100 99 / 29%), rgb(97 100 99 / 33%)),
+          /* overlay color with opacity */
+            url(https://images.wallpaperscraft.com/image/single/garden_flowers_variety_14857_1366x768.jpg)
+            no-repeat center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+        color: #e8f6ef;
+        text-align: center;
+        padding: 0 20px;
+      }
+      header h2 {
+        font-size: 3rem;
+        text-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+      }
+      header p {
+        max-width: 700px;
+        margin: 20px auto;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      .container {
+        max-width: 960px;
+        margin: 40px auto;
+        padding: 0 18px;
+      }
+      h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 6px;
+      }
+      .lead {
+        color: var(--muted);
+        font-size: 1.05rem;
+        margin-bottom: 20px;
+      }
+      /* Chips */
+      .quick {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+      }
+      .chip {
+        background: var(--light-green);
+        padding: 8px 14px;
+        border-radius: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 0.9rem;
+        transition: all 0.25s ease;
+      }
+      .chip:hover {
+        background: var(--green);
+        color: #fff;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      }
+      /* Accordion Cards */
+      .accordion {
+        background: transparent;
+      }
+      .card {
+        background: var(--card);
+        border-radius: 12px;
+        margin-bottom: 14px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+      }
+      .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+      }
+      .card button.trigger {
+        width: 100%;
+        background: transparent;
+        border: 0;
+        padding: 18px 20px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--green);
+        transition: background 0.2s ease;
+      }
+      .card button.trigger:hover {
+        background: var(--light-green);
+      }
+      .card button.trigger .title {
+        flex: 1;
+      }
+      .card button.trigger .chev {
+        transition: transform 0.25s ease;
+      }
+      /* Panel */
+      .panel {
+        padding: 0px;
+        line-height: 1.6;
+        font-size: 0.97rem;
+        color: var(--muted);
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transform: translateY(-6px);
+        transition: all 0.35s ease;
+      }
+      .card.open .panel {
+        max-height: 500px;
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .card.open .chev {
+        transform: rotate(180deg);
+      }
+      /* Gujarati styling */
+      .guj-answer,
+      .guj {
+        display: none;
+        font-family: "Noto Sans Gujarati", sans-serif;
+      }
+
+      .card.open button.trigger {
+        background: green !important;
+        color: white !important;
+      }
+
+      button:focus {
+        outline: none !important;
+      }
+
+      @media (max-width: 520px) {
+        h2 {
+          font-size: 1.6rem;
+        }
+        .card button.trigger {
+          padding: 14px;
+        }
+        .panel {
+          padding: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Happiness Garden</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="care_tips.html">Tips</a></li>
+        <li class="active"><a href="faq.html">FAQ</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </nav>
+    <header style="margin-top: 3.6rem">
+      <h2>FAQs — General Questions</h2>
+      <p>Quick answers to help you grow greener and happier.</p>
+    </header>
+
+    <main class="container">
+      <p class="lead">
+        Common questions about shopping, delivery and plant care at Happiness
+        Garden Nursery.
+      </p>
+
+      <!-- Quick Chips -->
+      <div class="quick">
+        <div class="chip" data-target="q1">Ordering</div>
+        <div class="chip" data-target="q3">Delivery</div>
+        <div class="chip" data-target="q6">Care Tips</div>
+        <div class="chip" data-target="q9">Bulk Orders</div>
+      </div>
+
+      <!-- Accordion -->
+      <section class="accordion" id="faqs">
+        <!-- 1 -->
+        <article class="card" id="q1">
+          <button class="trigger" aria-expanded="false" aria-controls="panel1">
+            <span class="title">How can I place an order?</span>
+            <span class="chev">▾</span>
+          </button>
+          <div id="panel1" class="panel" role="region" aria-labelledby="q1">
+            <p class="p-3">
+              You can place orders online via our
+              <strong>Products</strong> page, over WhatsApp, or visit us at the
+              nursery. For large orders please call ahead.
+            </p>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="card" id="q2">
+          <button class="trigger" aria-expanded="false" aria-controls="panel2">
+            <span class="title">What payment methods do you accept?</span>
+            <span class="chev">▾</span>
+          </button>
+          <div id="panel2" class="panel" role="region" aria-labelledby="q2">
+            <p class="p-3">
+              We accept cash, UPI (Google Pay/PhonePe/PayTM), and major
+              debit/credit cards at the nursery. Online payments via
+              UPI/transfer are also supported.
+            </p>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="card" id="q3">
+          <button class="trigger" aria-expanded="false" aria-controls="panel3">
+            <span class="title">Do you deliver plants?</span>
+            <span class="chev">▾</span>
+          </button>
+          <div id="panel3" class="panel" role="region" aria-labelledby="q3">
+            <p class="p-3">
+              Yes — local delivery within Valsad and nearby areas is available.
+              Delivery charges depend on distance and size of the order. We also
+              offer pickup from the nursery.
+            </p>
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article class="card" id="q4">
+          <button class="trigger" aria-expanded="false" aria-controls="panel4">
+            <span class="title">Can I return or exchange a plant?</span>
+            <span class="chev">▾</span>
+          </button>
+          <div id="panel4" class="panel" role="region" aria-labelledby="q4">
+            <p class="p-3">
+              If a plant arrives damaged, please contact us within 48 hours with
+              photos. We will replace or offer a store credit depending on the
+              situation. Healthy plant guarantee is subject to proper care.
+            </p>
+          </div>
+        </article>
+
+        <!-- 5 -->
+        <article class="card" id="q5">
+          <button class="trigger" aria-expanded="false" aria-controls="panel5">
+            <span class="title">Are your plants ready to plant at home?</span>
+            <span class="chev">▾</span>
+          </button>
+          <div id="panel5" class="panel" role="region" aria-labelledby="q5">
+            <p class="p-3">
+              Most plants are sold in pots and are ready to be transplanted. We
+              provide basic care instructions and can advise on soil and
+              watering for successful transfer.
+            </p>
+          </div>
+        </article>
+
+        <!-- 6 -->
+        <article class="card" id="q6">
+          <button class="trigger" aria-expanded="false" aria-controls="panel6">
+            <span class="title">Where can I find plant care tips?</span>
+            <span class="chev">▾</span>
+          </button>
+          <div id="panel6" class="panel" role="region" aria-labelledby="q6">
+            <p class="p-3">
+              Check our Blog/ Tips page and product detail pages for specific
+              care instructions. You can also ask our staff at the nursery or
+              message us on WhatsApp for personalised advice.
+            </p>
+          </div>
+        </article>
+
+        <!-- 7 -->
+        <article class="card" id="q7">
+          <button class="trigger" aria-expanded="false" aria-controls="panel7">
+            <span class="title">Do you offer bulk or corporate orders?</span>
+            <span class="chev">▾</span>
+          </button>
+          <div id="panel7" class="panel" role="region" aria-labelledby="q7">
+            <p class="p-3">
+              Yes — we handle bulk, wedding and corporate orders. Contact us
+              with requirements and delivery timelines for a customised quote
+              and scheduling.
+            </p>
+          </div>
+        </article>
+
+        <!-- 8 -->
+        <article class="card" id="q8">
+          <button class="trigger" aria-expanded="false" aria-controls="panel8">
+            <span class="title">What sizes of plants do you sell?</span>
+            <span class="chev">▾</span>
+          </button>
+          <div id="panel8" class="panel" role="region" aria-labelledby="q8">
+            <p class="p-3">
+              We sell seedlings, medium potted plants and larger ready-to-plant
+              trees depending on the variety. Check each product for size
+              options and pricing.
+            </p>
+          </div>
+        </article>
+
+        <!-- 9 -->
+        <article class="card" id="q9">
+          <button class="trigger" aria-expanded="false" aria-controls="panel9">
+            <span class="title"
+              >Can I get a planting or maintenance service?</span
+            >
+            <span class="chev">▾</span>
+          </button>
+          <div id="panel9" class="panel" role="region" aria-labelledby="q9">
+            <p class="p-3">
+              We can recommend local gardeners and sometimes arrange planting
+              services for large orders. Contact us to discuss availability and
+              pricing.
+            </p>
+          </div>
+        </article>
+
+        <!-- 10 -->
+        <article class="card" id="q10">
+          <button class="trigger" aria-expanded="false" aria-controls="panel10">
+            <span class="title">Where is your nursery located?</span>
+            <span class="chev">▾</span>
+          </button>
+          <div id="panel10" class="panel" role="region" aria-labelledby="q10">
+            <p class="p-3">
+              We are located at:
+              <strong>Khergam to Valsad Road, Gorwada, 396001</strong>. Visit us
+              during working hours or contact for directions and opening times.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2025 Happiness Garden | Follow us:
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+        <a href="#">WhatsApp</a>
+      </p>
+    </footer>
+    <script>
+      // Accordion
+      document.querySelectorAll(".card").forEach((card) => {
+        const btn = card.querySelector(".trigger");
+        btn.addEventListener("click", () => {
+          const isOpen = card.classList.contains("open");
+          document
+            .querySelectorAll(".card")
+            .forEach((c) => c.classList.remove("open"));
+          if (!isOpen) card.classList.add("open");
+        });
+      });
+      // Chips
+      document.querySelectorAll(".chip").forEach((chip) => {
+        chip.addEventListener("click", () => {
+          const id = chip.dataset.target;
+          const el = document.getElementById(id);
+          if (el) {
+            el.querySelector(".trigger").click();
+            el.scrollIntoView({ behavior: "smooth", block: "center" });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
