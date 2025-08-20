@@ -170,7 +170,7 @@ window.productsData = [
     price: 150,
     plantype: 'fruit',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/3/36/Phyllanthus_emblica_(Amla)_in_Hyderabad_W_IMG_6979.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/2/20/Otaheite_gooseberry.JPG',
     description:
       'A sour and tangy fruit known for its high Vitamin C and medicinal properties. It helps in digestion, boosts immunity, and promotes healthy hair and skin.',
     advantages: [
@@ -268,8 +268,7 @@ window.productsData = [
     name: 'Ber',
     price: 110,
     plantype: 'fruit',
-    image:
-      'https://5.imimg.com/data5/ANDROID/Default/2022/3/PL/WK/JQ/11834250/product-jpeg-500x500.jpg',
+    image: 'https://m.media-amazon.com/images/I/61hK7cDtKCL._SX679_.jpg',
     description:
       'A small, tangy fruit rich in iron and vitamins, great for boosting hemoglobin levels. It is also helpful in treating cold and cough naturally.',
     advantages: [
@@ -765,7 +764,7 @@ window.productsData = [
     price: 250,
     plantype: 'fruit',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/0/02/Kesar_Mango.jpg',
+      'https://shop.villkart.com/wp-content/uploads/2021/08/kesar-mango-3.png',
     description:
       'A premium mango variety famous for its saffron-colored pulp and rich sweetness. It is a seasonal delicacy and a source of vitamins and minerals.',
     advantages: [
@@ -798,7 +797,7 @@ window.productsData = [
     price: 300,
     plantype: 'fruit',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/2/2e/Dragon_fruit_pitahaya.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf4rL0rPhm4uEka9iwJj17teW-JFvnwWxKig&s',
     description:
       'An exotic tropical fruit with a bright pink skin and white or red flesh dotted with seeds. It is low in calories and high in fiber, vitamins, and antioxidants.',
     advantages: [
@@ -810,39 +809,6 @@ window.productsData = [
       },
       {
         key: 'Boosts immunity.',
-      },
-    ],
-    total_qty: 10,
-    age_months: 5,
-    height_cm: 10,
-    pot_size_cm: 10,
-    growth_rate: 'moderate',
-    sunlight: 'full-sun',
-    care_level: 'easy',
-    return_policy_days: 3,
-    replacement_policy: '',
-    warranty: '',
-    handling_time_days: 2,
-    shipping_weight_g: 800,
-  },
-  {
-    id: 26,
-    name: 'Watermelon',
-    price: 100,
-    plantype: 'fruit',
-    image:
-      'https://upload.wikimedia.org/wikipedia/commons/e/e4/Watermelon_cross_BNC.jpg',
-    description:
-      'A juicy and refreshing fruit perfect for hot summer days. It hydrates the body, supports heart health, and provides essential vitamins.',
-    advantages: [
-      {
-        key: 'Keeps the body hydrated.',
-      },
-      {
-        key: 'Supports heart health.',
-      },
-      {
-        key: 'Rich in vitamins.',
       },
     ],
     total_qty: 10,
@@ -897,7 +863,7 @@ window.productsData = [
     price: 180,
     plantype: 'fruit',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/0/0a/Jamun_fruit.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR10o4Y5mBGd0IEdF71JiHHoK9CYq3L57Jsng&s',
     description:
       'A purple-black fruit with a unique sweet-tart flavor, known for controlling blood sugar. It is rich in antioxidants and supports oral health.',
     advantages: [
@@ -930,7 +896,7 @@ window.productsData = [
     price: 160,
     plantype: 'fruit',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/5/5e/Chikoo_fruit.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoDyu5Jmp9RqrRazpUHaPornF_jNtjOwKrRw&s',
     description:
       'A sweet brown tropical fruit rich in fiber and natural sugars. It boosts energy, aids digestion, and supports bone health.',
     advantages: [
@@ -963,7 +929,7 @@ window.productsData = [
     price: 140,
     plantype: 'fruit',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/8/83/Kinnow_Fruit.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZL2divtYlwYBoXlMr3Fys7_J4XbcyU4VrVA&s',
     description:
       'A juicy citrus fruit with a tangy-sweet taste, popular in winter. It is rich in Vitamin C, boosts immunity, and refreshes the body.',
     advantages: [
@@ -996,7 +962,7 @@ window.productsData = [
     price: 200,
     plantype: 'fruit',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/f/f0/Black_grapes.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZVHuDDKwXwU1ppN6kZ5P-WzzAboTskQQXLQ&s',
     description:
       'A juicy, sweet fruit rich in antioxidants and resveratrol for heart health. Also supports skin health and boosts energy naturally.',
     advantages: [
@@ -1028,7 +994,8 @@ window.productsData = [
     name: 'Pear',
     price: 180,
     plantype: 'fruit',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Pears.jpg',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5vSOWoE9g8-Dfdocshlygn3TSY7JseT-JA&s',
     description:
       'A sweet, juicy fruit high in fiber and water content, keeping you hydrated. It supports digestion, heart health, and weight management.',
     advantages: [
@@ -1061,7 +1028,7 @@ window.productsData = [
     price: 170,
     plantype: 'fruit',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/0/00/Custard_apple.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqRtXIhWs5DCrVK2dPES3kElu193uQVoJaXQ&s',
     description:
       'A creamy, sweet tropical fruit packed with vitamins and minerals. It boosts energy, improves digestion, and supports immunity.',
     advantages: [
@@ -1117,7 +1084,7 @@ window.productsData = [
     price: 190,
     plantype: 'fruit',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/9/9a/Peach_and_cross_section.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WU2uhUtf1Nt06oD98PhTcdH9WK9EyTOPKc5RRlDBTysIOD834zh-X6J4jzZ2VW7Cx0w&usqp=CAU',
     description:
       'A soft, juicy fruit with a pleasant aroma and delicate sweetness. It is rich in vitamins, supports skin health, and aids digestion.',
     advantages: [
@@ -1214,7 +1181,7 @@ window.productsData = [
     id: 38,
     name: 'Desi Rose',
     price: 150,
-    plantype: 'flower',
+    plantype: 'outdoor',
     image:
       'https://5.imimg.com/data5/ECOM/Default/2024/2/389923283/AL/YF/YB/133331885/lightpinknadanroseliveplant-seed2plant-1-500x500.png',
     description:
@@ -1280,7 +1247,7 @@ window.productsData = [
     id: 40,
     name: 'Champa',
     price: 200,
-    plantype: 'flower',
+    plantype: 'outdoor',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FSvhqFC1N6uY4P4LtKFsysgy98kZ20cc4w&s',
     description:
@@ -1313,7 +1280,7 @@ window.productsData = [
     id: 41,
     name: 'Adenium',
     price: 250,
-    plantype: 'flower',
+    plantype: 'outdoor',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNcPbZAmE5C82qW6thBfNz_tSWBtDMlyl5wA&s',
     description:
@@ -1348,7 +1315,7 @@ window.productsData = [
     price: 60,
     plantype: 'herb',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/6/6b/Curry_leaves.JPG',
+      'https://vgrgardens.com/wp-content/uploads/2025/02/curry-leaves-plant.png',
     description:
       'An aromatic herb essential in Indian cooking, adding a unique flavor and aroma to dishes. Also contains medicinal properties that support digestion and health.',
     advantages: [
@@ -1376,45 +1343,12 @@ window.productsData = [
     shipping_weight_g: 800,
   },
   {
-    id: 43,
-    name: 'Coriander',
-    price: 40,
-    plantype: 'herb',
-    image:
-      'https://upload.wikimedia.org/wikipedia/commons/f/f3/Coriander_leaves.jpg',
-    description:
-      'A fresh green herb used in cuisines worldwide for its flavor and aroma. It also has cooling properties and aids in digestion.',
-    advantages: [
-      {
-        key: 'Adds fresh flavor to dishes.',
-      },
-      {
-        key: 'Has cooling effects.',
-      },
-      {
-        key: 'Aids digestion.',
-      },
-    ],
-    total_qty: 10,
-    age_months: 5,
-    height_cm: 10,
-    pot_size_cm: 10,
-    growth_rate: 'moderate',
-    sunlight: 'full-sun',
-    care_level: 'easy',
-    return_policy_days: 3,
-    replacement_policy: '',
-    warranty: '',
-    handling_time_days: 2,
-    shipping_weight_g: 800,
-  },
-  {
     id: 44,
     name: 'Tulsi',
     price: 50,
     plantype: 'herb',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/b/bb/Tulsi_plant.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcstN8b7W_6LEf9saS8b82G1vBBVcu0rMZVw&s',
     description:
       'A sacred plant in Indian tradition known for its spiritual and medicinal value. It boosts immunity, purifies air, and relieves stress.',
     advantages: [
@@ -1447,7 +1381,7 @@ window.productsData = [
     price: 30,
     plantype: 'herb',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/1/18/Mint_leaves.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR08qSb0WVqjRXA-wGcjknImrmeIxGuS3kDRA&s',
     description:
       'A refreshing herb used in drinks, chutneys, and dishes for its cooling flavor. It also aids digestion and freshens breath naturally.',
     advantages: [
@@ -1478,7 +1412,7 @@ window.productsData = [
     id: 46,
     name: 'Lady Palm',
     price: 360,
-    plantype: 'outdoor',
+    plantype: 'indoor',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRELK6FG0nhMFqdlsUtf62yU07gH_n9y-pqqA&s',
 
@@ -1494,8 +1428,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Lady Palm is a popular indoor plant with fan-shaped leaves, known for purifying air and adding elegance to interiors.',
+    advantages: [
+      { key: 'Air purifying' },
+      { key: 'Low maintenance' },
+      { key: 'Attractive foliage' },
+    ],
   },
   {
     id: 47,
@@ -1550,8 +1489,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Lemon Grass is an aromatic herb used in tea, soups, and traditional medicine. It has a refreshing citrus fragrance.',
+    advantages: [
+      { key: 'Used in herbal tea' },
+      { key: 'Mosquito repellent' },
+      { key: 'Medicinal value' },
+    ],
   },
   {
     id: 49,
@@ -1573,8 +1517,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Christmas Tree is an evergreen conifer, symbol of celebration, widely used for decoration during Christmas.',
+    advantages: [
+      { key: 'Evergreen beauty' },
+      { key: 'Ornamental use' },
+      { key: 'Symbol of festivity' },
+    ],
   },
   {
     id: 50,
@@ -1596,8 +1545,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Neem is a medicinal tree known as a natural purifier. Its leaves, bark, and seeds are used for health remedies.',
+    advantages: [
+      { key: 'Medicinal benefits' },
+      { key: 'Natural pesticide' },
+      { key: 'Air purifier' },
+    ],
   },
   {
     id: 51,
@@ -1619,8 +1573,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Ribbon Grass is a decorative plant with green and white striped leaves, ideal for borders and landscaping.',
+    advantages: [
+      { key: 'Attractive ornamental look' },
+      { key: 'Easy to grow' },
+      { key: 'Ground cover plant' },
+    ],
   },
   {
     id: 52,
@@ -1642,8 +1601,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Adenium, also known as Desert Rose, is a flowering plant with vibrant blooms and thick stems.',
+    advantages: [
+      { key: 'Beautiful flowers' },
+      { key: 'Drought tolerant' },
+      { key: 'Ideal for bonsai' },
+    ],
   },
   {
     id: 53,
@@ -1665,8 +1629,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Tej Patta (Bay Leaf) is a culinary spice and medicinal herb widely used in Indian cooking and Ayurveda.',
+    advantages: [
+      { key: 'Culinary use' },
+      { key: 'Medicinal properties' },
+      { key: 'Aromatic leaves' },
+    ],
   },
   {
     id: 54,
@@ -1688,8 +1657,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Areca Palm is a popular indoor plant with feathery fronds, known for improving indoor air quality.',
+    advantages: [
+      { key: 'Air purifier' },
+      { key: 'Attractive foliage' },
+      { key: 'Good for indoors' },
+    ],
   },
   {
     id: 55,
@@ -1711,8 +1685,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Fern is a lush green plant that grows in shaded areas, known for its delicate feathery leaves.',
+    advantages: [
+      { key: 'Air purifying' },
+      { key: 'Adds greenery indoors' },
+      { key: 'Low maintenance' },
+    ],
   },
   {
     id: 56,
@@ -1734,8 +1713,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Travellers Palm is a tropical plant with fan-shaped leaves that collect rainwater, traditionally helpful to travellers.',
+    advantages: [
+      { key: 'Unique ornamental plant' },
+      { key: 'Water storage in leaves' },
+      { key: 'Tropical landscaping' },
+    ],
   },
   {
     id: 57,
@@ -1757,8 +1741,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Morpankhi (Thuja) is a decorative evergreen shrub used in hedges and landscaping.',
+    advantages: [
+      { key: 'Ornamental use' },
+      { key: 'Used as hedge plant' },
+      { key: 'Easy to maintain' },
+    ],
   },
   {
     id: 58,
@@ -1780,8 +1769,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Tarmanlia (Tabernaemontana) is a flowering plant with fragrant white flowers, often used in gardens.',
+    advantages: [
+      { key: 'Fragrant flowers' },
+      { key: 'Medicinal uses' },
+      { key: 'Beautiful ornamental plant' },
+    ],
   },
   {
     id: 59,
@@ -1803,8 +1797,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Snake Plant, also called Mother-in-law’s Tongue, is a hardy plant known for its upright leaves and air-purifying qualities.',
+    advantages: [
+      { key: 'Air purifier' },
+      { key: 'Low maintenance' },
+      { key: 'Drought resistant' },
+    ],
   },
   {
     id: 60,
@@ -1826,8 +1825,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Dieffenbachia is a popular indoor plant with large patterned leaves, adding tropical beauty to interiors.',
+    advantages: [
+      { key: 'Attractive foliage' },
+      { key: 'Air purifier' },
+      { key: 'Good for indoors' },
+    ],
   },
   {
     id: 61,
@@ -1849,8 +1853,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Dracaena Mix includes varieties of Dracaena with colorful striped leaves, perfect as indoor decorative plants.',
+    advantages: [
+      { key: 'Air purifier' },
+      { key: 'Attractive striped leaves' },
+      { key: 'Indoor friendly' },
+    ],
   },
   {
     id: 62,
@@ -1872,8 +1881,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Syngonium is a low-maintenance indoor plant with arrow-shaped leaves that come in different shades.',
+    advantages: [
+      { key: 'Air purifying' },
+      { key: 'Variety of leaf colors' },
+      { key: 'Compact indoor plant' },
+    ],
   },
   {
     id: 63,
@@ -1895,8 +1909,13 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Yellow Dracaena is an ornamental plant with yellow-striped leaves, widely used as an indoor and office plant.',
+    advantages: [
+      { key: 'Bright ornamental look' },
+      { key: 'Air purifier' },
+      { key: 'Low maintenance' },
+    ],
   },
   {
     id: 64,
@@ -1917,7 +1936,582 @@ window.productsData = [
     warranty: '',
     handling_time_days: 2,
     shipping_weight_g: 800,
-    description: null,
-    advantages: null,
+    description:
+      'Green Bamboo is a fast-growing plant symbolizing luck, strength, and prosperity.',
+    advantages: [
+      { key: 'Symbol of good luck' },
+      { key: 'Fast growing' },
+      { key: 'Eco-friendly' },
+    ],
+  },
+  {
+    name: 'Mini Tagari',
+    gujarati_name: 'મીની ટાગરી',
+    id: 65,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Mini Tagari is a compact ornamental plant with small, colorful flowers. It is ideal for home gardens and pots, adding vibrant beauty to small spaces.',
+    advantages: [
+      {
+        key: 'Compact plant, suitable for pots.',
+      },
+      {
+        key: 'Bright flowers enhance beauty.',
+      },
+    ],
+  },
+  {
+    name: 'Rat Rani',
+    gujarati_name: 'રાતરાણી',
+    id: 66,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Rat Rani, also known as Night-blooming Jasmine, is famous for its strong fragrance that spreads at night. It is widely planted for its aromatic and ornamental value.',
+    advantages: [
+      {
+        key: 'Fragrant flowers bloom at night.',
+      },
+      {
+        key: 'Good for home garden.',
+      },
+    ],
+  },
+  {
+    name: 'Axora Lal',
+    gujarati_name: 'ઇક્સોરા લાલ',
+    id: 67,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Ixora Lal is a popular flowering shrub with bright red clusters of flowers. It is commonly used in decorative gardens for its long-lasting blooms.',
+    advantages: [
+      {
+        key: 'Attractive red flowers.',
+      },
+      {
+        key: 'Low maintenance plant.',
+      },
+    ],
+  },
+  {
+    name: 'Axora Pila',
+    gujarati_name: 'ઇક્સોરા પીળા',
+    id: 68,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Ixora Pila is admired for its bright yellow flowers that bloom in clusters. It brings a cheerful look to gardens and is easy to grow.',
+    advantages: [
+      {
+        key: 'Bright yellow blooms.',
+      },
+      {
+        key: 'Good for decorative purpose.',
+      },
+    ],
+  },
+  {
+    name: 'Axora White',
+    gujarati_name: 'ઇક્સોરા સફેદ',
+    id: 69,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Ixora White produces elegant white flowers that create a fresh and soothing effect in gardens. It is a hardy plant suitable for warm climates.',
+    advantages: [
+      {
+        key: 'Elegant white flowers.',
+      },
+      {
+        key: 'Adds freshness to garden.',
+      },
+    ],
+  },
+  {
+    name: 'Karan Mixra (Red/White/Yellow)',
+    gujarati_name: 'કરણ મિક્સ (લાલ/સફેદ/પીળા)',
+    id: 70,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Karan Mixra is a versatile ornamental plant that comes in multiple colors including red, white, and yellow. It is perfect for creating vibrant landscaping.',
+    advantages: [
+      {
+        key: 'Multiple color variety.',
+      },
+      {
+        key: 'Best for ornamental gardening.',
+      },
+    ],
+  },
+  {
+    name: 'Govadi Chovadi',
+    gujarati_name: 'ગોવાડી ચોવાડી',
+    id: 71,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Govadi Chovadi is a hardy shrub that thrives in outdoor conditions. It is often used in boundary plantations and landscaping due to its durability.',
+    advantages: [
+      {
+        key: 'Hardy plant.',
+      },
+      {
+        key: 'Suitable for outdoor landscaping.',
+      },
+    ],
+  },
+  {
+    name: 'Thailen Tikoma',
+    gujarati_name: 'થાઇલેન્ડ ટીકોમા',
+    id: 72,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Thailand Tikoma is a fast-growing flowering tree that produces trumpet-shaped yellow flowers. It is known for attracting butterflies and adding beauty to roadsides.',
+    advantages: [
+      {
+        key: 'Beautiful yellow flowers.',
+      },
+      {
+        key: 'Attracts butterflies.',
+      },
+    ],
+  },
+  {
+    name: 'Mogara',
+    gujarati_name: 'મોગરો',
+    id: 73,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Mogra, or Jasmine, is one of the most fragrant flowering plants. Its flowers are used in garlands, perfumes, and religious offerings.',
+    advantages: [
+      {
+        key: 'Highly fragrant flowers.',
+      },
+      {
+        key: 'Used in garlands and decoration.',
+      },
+    ],
+  },
+  {
+    name: 'Jasud',
+    gujarati_name: 'જાસુદ',
+    id: 74,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Jasud (Hibiscus) is a tropical plant known for its large and vibrant flowers. It has medicinal value, especially in hair care and traditional remedies.',
+    advantages: [
+      {
+        key: 'Medicinal uses for hair care.',
+      },
+      {
+        key: 'Large colorful flowers.',
+      },
+    ],
+  },
+  {
+    name: 'Jat ropa',
+    gujarati_name: 'જાટ્રોપા',
+    id: 75,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Jatropha is a hardy, drought-resistant plant that produces bright red flowers year-round. It is often used in fencing and as a biofuel plant.',
+    advantages: [
+      {
+        key: 'Drought tolerant plant.',
+      },
+      {
+        key: 'Bright red flowers all year.',
+      },
+    ],
+  },
+  {
+    name: 'Gulab Kasmiri',
+    gujarati_name: 'કાશ્મીરી ગુલાબ',
+    id: 76,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Kashmiri Rose is a premium variety of rose known for its large size and strong fragrance. It is highly valued for decoration and perfumes.',
+    advantages: [
+      {
+        key: 'Premium quality rose.',
+      },
+      {
+        key: 'Strong fragrance and beauty.',
+      },
+    ],
+  },
+  {
+    name: 'White Gulab',
+    gujarati_name: 'સફેદ ગુલાબ',
+    id: 77,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'White Rose symbolizes peace and purity. It is widely used in decorations, religious offerings, and special occasions.',
+    advantages: [
+      {
+        key: 'Pure white flowers.',
+      },
+      {
+        key: 'Symbol of peace and purity.',
+      },
+    ],
+  },
+  {
+    name: 'Aelamenda Pela',
+    gujarati_name: 'એલામેંડા પીળા',
+    id: 78,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Allamanda Pila is a tropical flowering shrub with bright yellow trumpet-shaped flowers. It grows well in warm climates and blooms year-round.',
+    advantages: [
+      {
+        key: 'Evergreen shrub.',
+      },
+      {
+        key: 'Bright yellow trumpet flowers.',
+      },
+    ],
+  },
+  {
+    name: 'Draf Oro',
+    gujarati_name: 'ડ્રાફ ઓરો',
+    id: 79,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Draf Oro is an ornamental plant with unique foliage. It is commonly used for landscape gardening due to its decorative appeal.',
+    advantages: [
+      {
+        key: 'Strong ornamental plant.',
+      },
+      {
+        key: 'Ideal for landscaping.',
+      },
+    ],
+  },
+  {
+    name: 'Dreshina',
+    gujarati_name: 'ડ્રેસિના',
+    id: 80,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Dracaena (Dreshina) is a popular indoor plant that requires very little care. It is also known for its ability to purify indoor air.',
+    advantages: [
+      {
+        key: 'Popular indoor plant.',
+      },
+      {
+        key: 'Improves air quality.',
+      },
+    ],
+  },
+  {
+    name: 'Himalaya Draf',
+    gujarati_name: 'હિમાલિયા ડ્રાફ',
+    id: 81,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Himalaya Draf is a decorative indoor plant with attractive foliage. It is low maintenance and ideal for indoor decoration.',
+    advantages: [
+      {
+        key: 'Attractive foliage.',
+      },
+      {
+        key: 'Low maintenance indoor plant.',
+      },
+    ],
+  },
+  {
+    name: 'Parijat',
+    gujarati_name: 'પારિજાત',
+    id: 82,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Parijat, also known as Night-flowering Jasmine, is considered sacred in many cultures. It blooms fragrant flowers at night and holds spiritual value.',
+    advantages: [
+      {
+        key: 'Fragrant night-blooming flowers.',
+      },
+      {
+        key: 'Cultural and spiritual value.',
+      },
+    ],
+  },
+  {
+    name: 'Petra Croton',
+    gujarati_name: 'પેટ્રા ક્રોટોન',
+    id: 83,
+    price: 80,
+    plantype: 'outdoor',
+    image: null,
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Petra Croton is admired for its colorful foliage with shades of red, yellow, and green. It is widely used as an ornamental indoor plant.',
+    advantages: [
+      {
+        key: 'Colorful foliage.',
+      },
+      {
+        key: 'Perfect for indoor decoration.',
+      },
+    ],
   },
 ]
