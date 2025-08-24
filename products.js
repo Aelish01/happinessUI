@@ -200,7 +200,7 @@ window.productsData = [
   {
     id: 7,
     name: 'Chikoo',
-    price: 120,
+    price: 250,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo55-X2W7JseTJAEUhVZkihHEYMMbVgdCcog&s',
@@ -233,7 +233,7 @@ window.productsData = [
   {
     id: 8,
     name: 'Jamboo',
-    price: 140,
+    price: 100,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDjv2jpj_L68dG9EL77jjwFeVnHilFluBD2Q&s',
@@ -298,7 +298,7 @@ window.productsData = [
   {
     id: 10,
     name: 'Fig',
-    price: 250,
+    price: 150,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJL_8YtAZE230YfAmBYaom2ipZilyut9_Klg&s',
@@ -331,7 +331,7 @@ window.productsData = [
   {
     id: 11,
     name: 'Jackfruit',
-    price: 180,
+    price: 250,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-4aMq6FgazWxvJ5mwg-wiawW9ONBM93ZKzQ&s',
@@ -364,7 +364,7 @@ window.productsData = [
   {
     id: 12,
     name: 'Papaya',
-    price: 130,
+    price: 80,
     plantype: 'fruit',
     image:
       'https://5.imimg.com/data5/SELLER/Default/2022/7/MV/IR/JM/106091433/fresh-papaya-1000x1000.jpg',
@@ -397,7 +397,7 @@ window.productsData = [
   {
     id: 13,
     name: 'Lychee',
-    price: 200,
+    price: 320,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVT2psPBetw6PVglgGXUil_uFfP1dKbvaOzw&se',
@@ -463,7 +463,7 @@ window.productsData = [
   {
     id: 15,
     name: 'Mulberry',
-    price: 160,
+    price: 80,
     plantype: 'fruit',
     image:
       'https://magazine.outdoornebraska.gov/wp-content/uploads/2024/08/mulberries.png',
@@ -496,7 +496,7 @@ window.productsData = [
   {
     id: 16,
     name: 'Coconut',
-    price: 80,
+    price: 180,
     plantype: 'fruit',
     image:
       'https://www.mtechgardens.com/cdn/shop/files/Coconut-Kalpasree-Hybrid_c9c663b4-e8b3-4edc-954d-674c2d9d62d3.png?crop=center&height=800&v=1717143280&width=800',
@@ -529,7 +529,7 @@ window.productsData = [
   {
     id: 17,
     name: 'Lemon (Khagdi)',
-    price: 90,
+    price: 150,
     plantype: 'fruit',
     image:
       'https://5.imimg.com/data5/XE/YV/MY-16365438/kagzi-lemon-plant-1000x1000.jpg',
@@ -562,7 +562,7 @@ window.productsData = [
   {
     id: 18,
     name: 'All Time Mango',
-    price: 220,
+    price: 320,
     plantype: 'fruit',
     image:
       'https://m.media-amazon.com/images/I/6180HfYgZnL._UF1000,1000_QL80_.jpg',
@@ -595,7 +595,7 @@ window.productsData = [
   {
     id: 19,
     name: 'Ramphal',
-    price: 180,
+    price: 110,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSigCcekg4Y211o8jjn-ILYImNpQlYn2S66NH8cbCnYnofwUJ0kCs8Xb4vhiobOCFeOaFU&usqp=CAU',
@@ -628,7 +628,7 @@ window.productsData = [
   {
     id: 20,
     name: 'Gooseberry (Khata Amla)',
-    price: 140,
+    price: 70,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJJZWc4gJV2AsSBqB4jlUoR096a22UT68ykQ&s',
@@ -662,7 +662,7 @@ window.productsData = [
   {
     id: 21,
     name: 'Cherry',
-    price: 250,
+    price: 150,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE-MFPAmhwNcuMghSqgi8WMKWw8VMS43rIGQ&s',
@@ -695,7 +695,7 @@ window.productsData = [
   {
     id: 22,
     name: 'Star Fruit',
-    price: 150,
+    price: 230,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUwwbgg4qyCyaz-AJwv8Q1vCJ45MouYpLpA&s',
@@ -728,7 +728,7 @@ window.productsData = [
   {
     id: 23,
     name: 'Orange',
-    price: 120,
+    price: 220,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfj8FzwWjGqhH_9cCWSIlK3acBrSsCF_sQZA&s',
@@ -761,7 +761,7 @@ window.productsData = [
   {
     id: 24,
     name: 'Kesar Mango',
-    price: 250,
+    price: 150,
     plantype: 'fruit',
     image:
       'https://shop.villkart.com/wp-content/uploads/2021/08/kesar-mango-3.png',
@@ -860,7 +860,7 @@ window.productsData = [
   {
     id: 28,
     name: 'Jamun',
-    price: 180,
+    price: 100,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR10o4Y5mBGd0IEdF71JiHHoK9CYq3L57Jsng&s',
@@ -893,7 +893,7 @@ window.productsData = [
   {
     id: 29,
     name: 'Sapota (Chikoo)',
-    price: 160,
+    price: 260,
     plantype: 'fruit',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoDyu5Jmp9RqrRazpUHaPornF_jNtjOwKrRw&s',
@@ -1180,7 +1180,7 @@ window.productsData = [
   {
     id: 38,
     name: 'Desi Rose',
-    price: 150,
+    price: 50,
     plantype: 'outdoor',
     image:
       'https://5.imimg.com/data5/ECOM/Default/2024/2/389923283/AL/YF/YB/133331885/lightpinknadanroseliveplant-seed2plant-1-500x500.png',
@@ -1246,7 +1246,7 @@ window.productsData = [
   {
     id: 40,
     name: 'Champa',
-    price: 200,
+    price: 150,
     plantype: 'outdoor',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FSvhqFC1N6uY4P4LtKFsysgy98kZ20cc4w&s',
@@ -1279,7 +1279,7 @@ window.productsData = [
   {
     id: 41,
     name: 'Adenium',
-    price: 250,
+    price: 150,
     plantype: 'outdoor',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNcPbZAmE5C82qW6thBfNz_tSWBtDMlyl5wA&s',
@@ -2244,6 +2244,8 @@ window.productsData = [
       },
     ],
   },
+
+
   {
     name: 'Jat ropa',
     gujarati_name: 'જાટ્રોપા',
@@ -2395,7 +2397,7 @@ window.productsData = [
     ],
   },
   {
-    name: 'Dreshina',
+    name: 'Drecena',
     gujarati_name: 'ડ્રેસિના',
     id: 80,
     price: 80,
@@ -2425,7 +2427,7 @@ window.productsData = [
     ],
   },
   {
-    name: 'Himalaya Draf',
+    name: 'Hemalia Dwarf',
     gujarati_name: 'હિમાલિયા ડ્રાફ',
     id: 81,
     price: 80,
@@ -2490,7 +2492,7 @@ window.productsData = [
     id: 83,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Az-RB03D9DHJuFZRLvMZPzmDKTZ3UcdkPw&s',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2506,12 +2508,12 @@ window.productsData = [
     description:
       'Petra Croton is admired for its colorful foliage with shades of red, yellow, and green. It is widely used as an ornamental indoor plant.',
     advantages: [
-      {
-        key: 'Colorful foliage.',
-      },
-      {
-        key: 'Perfect for indoor decoration.',
-      },
-    ],
-  },
+      { key: 'Colorful foliage.' },
+      { key: 'Perfect for indoor decoration.' }
+    ]
+  }
+
+
+
+
 ]
