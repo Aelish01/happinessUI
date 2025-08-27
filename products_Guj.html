@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happiness Garden Nursery - Products</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+Gujarati&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="products.js"></script>
+    <script
+      type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <style>
+      /* Grid */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 20px;
+        padding: 0 7rem 50px;
+        background: #2c9f670f;
+      }
+      .card {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        position: relative;
+        height: 17.5rem;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+      }
+      .card img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+        transition: transform 0.4s;
+      }
+      .card:hover img {
+        transform: scale(1.05);
+      }
+      .card h3 {
+        color: var(--green);
+        margin: 10px 0 4px;
+      }
+      .card .guj {
+        color: var(--muted);
+        font-weight: 600;
+      }
+      .price-tag {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #ffffff;
+        color: #0f7214;
+        padding: 4px 8px;
+        border-radius: 6px;
+        font-size: 1rem;
+        font-weight: 900;
+        box-shadow: 0 2px 5px 4px rgb(27 2 2) !important;
+      }
+      button.view-more-btn {
+        padding: 6px 18px;
+        width: 50%;
+        margin-top: 5px;
+        cursor: pointer;
+      }
+
+      @keyframes slideLeft {
+        from {
+          transform: translateX(-50px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      .card.fruit {
+        animation: slideLeft 0.8s ease forwards;
+        transition: transform 0.4s ease;
+      }
+      .card.fruit:hover {
+        transform: translateX(15px);
+      }
+
+      /* Indoor - Oxygen bubble hover */
+      /* Indoor - Oxygen bubble rising hover effect */
+      @keyframes bubbleFloat {
+        0% {
+          transform: translateY(100%) scale(0.8);
+          opacity: 0;
+        }
+        50% {
+          opacity: 0.8;
+        }
+        100% {
+          transform: translateY(-120%) scale(1.6);
+          opacity: 0;
+        }
+      }
+
+      .card.indoor {
+        position: relative;
+        overflow: hidden; /* Keep bubbles inside card */
+      }
+
+      .card.indoor .bubble {
+        position: absolute;
+        bottom: 100px; /* Start slightly below card */
+        background-image: url(https://cdn-icons-png.flaticon.com/128/5969/5969393.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0;
+        animation: bubbleFloat 20s linear infinite;
+      }
+
+      .card.indoor:hover .bubble {
+        opacity: 1;
+      }
+
+      /* Outdoor - Birds flying hover */
+      @keyframes flyBirds {
+        0% {
+          transform: translateX(-30px) translateY(0);
+          opacity: 0;
+        }
+        30% {
+          opacity: 1;
+        }
+        100% {
+          transform: translateX(150px) translateY(-30px);
+          opacity: 0;
+        }
+      }
+      .card.outdoor {
+        position: relative;
+        overflow: hidden;
+      }
+      .card.outdoor:hover::before {
+        content: "🕊️";
+        position: absolute;
+        font-size: 20px;
+        top: 20px;
+        left: -30px;
+        animation: flyBirds 2s linear infinite;
+      }
+
+      /* Decorative - Bounce in + Badge */
+
+      .card.decorative {
+        border: 2px dashed var(--green);
+      }
+      .productimg {
+        width: 10rem;
+        height: 11rem !important;
+      }
+
+      .title {
+        font-size: 2rem;
+        font-weight: 900;
+        font-family: "Noto Sans Gujarati";
+      }
+      .subline {
+        font-family: "Noto Sans Gujarati";
+        font-size: 17.5px;
+        font-weight: 700;
+      }
+      .newAdvatge {
+        padding: 5px !important;
+        border-radius: 11px !important;
+        width: 7px !important;
+        height: 7px !important;
+        background: #212529 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 class="mt-5 text-center">Happiness Garden</h1>
+    </div>
+
+    <div id="google_translate_element"></div>
+    <button id="downloadBtn" class="btn btn-primary m-3">Download PDF</button>
+
+    <div id="productGrid" class="p-5"></div>
+    <script src="products.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const gridEl = document.getElementById("productGrid");
+        const data = Array.isArray(window.productsData)
+          ? window.productsData
+          : [];
+
+        renderProducts(data);
+        safeUpdateActiveLabel(data);
+
+        function renderProducts(list = []) {
+          if (!gridEl) {
+            console.error("#productGrid not found");
+            return;
+          }
+          gridEl.innerHTML = "";
+
+          for (let i = 0; i < list.length; i += 3) {
+            const row = document.createElement("div");
+            row.className = "row g-3 mb-3";
+
+            for (let j = i; j < i + 3 && j < list.length; j++) {
+              const p = list[j] || {};
+              const adv = Array.isArray(p.advantages) ? p.advantages : [];
+
+              const col = document.createElement("div");
+              col.className = "col-lg-4 col-md-6 col-12";
+
+              col.innerHTML = `
+          <div class="border rounded p-2 shadow-sm h-100">
+            <div class="d-flex gap-2 g-2 align-items-start">
+              <div class="">
+                <img
+                  class="productimg rounded "
+                  src="${p.image || "images/no-image.png"}"
+                  alt="${p.name || "Plant"}"
+                  onerror="this.onerror=null;this.src='images/no-image.png';"
+                >
+              </div>
+              <div class="">
+                <div class="title">${p.name ?? "Unnamed Plant"}</div>
+                
+                <div class="">
+                  ${adv
+                    .map(
+                      (a) => `
+                    <div class="mb-1 d-flex align-items-baseline">
+                      <div class="me-2 newAdvatge"></div>
+                      <div class="subline">${a && a.key ? a.key : ""}</div>
+                    </div>
+                  `
+                    )
+                    .join("")}
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+              row.appendChild(col);
+            }
+            gridEl.appendChild(row);
+          }
+        }
+
+        function safeUpdateActiveLabel(list) {
+          const activeBtn = document.querySelector(".filter-btn.active");
+          if (!activeBtn) return; // no filter bar on this page — just skip
+
+          document.querySelectorAll(".filter-btn").forEach((b) => {
+            b.textContent =
+              b.dataset.plantype === "all"
+                ? "All"
+                : b.textContent.replace(/\(\d+\)/, "").trim();
+          });
+
+          const base =
+            activeBtn.dataset.plantype === "all"
+              ? "All"
+              : activeBtn.textContent.replace(/\(\d+\)/, "").trim();
+
+          activeBtn.textContent = `${base} (${list.length})`;
+        }
+      });
+
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            includedLanguages: "gu",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          "google_translate_element"
+        );
+        // ✅ Auto-select Gujarati after widget loads
+        setTimeout(() => {
+          let select = document.querySelector(".goog-te-combo");
+          if (select) {
+            select.value = "gu"; // Gujarati code
+            select.dispatchEvent(new Event("change"));
+          }
+        }, 1000);
+      }
+
+      document.getElementById("downloadBtn").addEventListener("click", () => {
+        const grid = document.getElementById("productGrid");
+        if (!grid) return;
+
+        // पहले HTML को Canvas में बदलो
+        html2canvas(grid, { scale: 2 }).then((canvas) => {
+          const imgData = canvas.toDataURL("image/png");
+          const pdf = new jspdf.jsPDF("p", "mm", "a4");
+
+          // Canvas को PDF साइज के हिसाब से फिट करना
+          const pageWidth = pdf.internal.pageSize.getWidth();
+          const pageHeight = pdf.internal.pageSize.getHeight();
+          const imgWidth = pageWidth;
+          const imgHeight = (canvas.height * imgWidth) / canvas.width;
+
+          let position = 0;
+
+          // अगर कंटेंट 1 पेज से बड़ा है तो multiple pages add करो
+          pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+          if (imgHeight > pageHeight) {
+            let heightLeft = imgHeight - pageHeight;
+            while (heightLeft > 0) {
+              position = heightLeft - imgHeight;
+              pdf.addPage();
+              pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+              heightLeft -= pageHeight;
+            }
+          }
+
+          // डाउनलोड कराओ
+          pdf.save("products.pdf");
+        });
+      });
+    </script>
+
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+  </body>
+</html>

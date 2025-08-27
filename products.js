@@ -1246,7 +1246,7 @@ window.productsData = [
   {
     id: 40,
     name: 'Champa',
-    price: 150,
+    price: 200,
     plantype: 'outdoor',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FSvhqFC1N6uY4P4LtKFsysgy98kZ20cc4w&s',
@@ -1279,7 +1279,7 @@ window.productsData = [
   {
     id: 41,
     name: 'Adenium',
-    price: 150,
+    price: 250,
     plantype: 'outdoor',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNcPbZAmE5C82qW6thBfNz_tSWBtDMlyl5wA&s',
