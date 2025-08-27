@@ -764,7 +764,7 @@ window.productsData = [
     price: 150,
     plantype: 'fruit',
     image:
-      'https://shop.villkart.com/wp-content/uploads/2021/08/kesar-mango-3.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8y9jJYqDDEU1QX4phsefXj66YP_2bvxtvMA&s',
     description:
       'A premium mango variety famous for its saffron-colored pulp and rich sweetness. It is a seasonal delicacy and a source of vitamins and minerals.',
     advantages: [
@@ -1950,7 +1950,8 @@ window.productsData = [
     id: 65,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://forestranursery.com/wp-content/uploads/2025/05/71Nlc0ZGV9L._AC_UF10001000_QL80_.jpg',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -1980,7 +1981,8 @@ window.productsData = [
     id: 66,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://m.media-amazon.com/images/I/61RgkdAK1YL._UF1000,1000_QL80_.jpg',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2005,12 +2007,13 @@ window.productsData = [
     ],
   },
   {
-    name: 'Axora Lal',
+    name: 'Exora Red',
     gujarati_name: 'ઇક્સોરા લાલ',
     id: 67,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://m.media-amazon.com/images/I/91FOi3zjYgL._UF1000,1000_QL80_.jpg',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2035,12 +2038,13 @@ window.productsData = [
     ],
   },
   {
-    name: 'Axora Pila',
+    name: 'Exora Yellow',
     gujarati_name: 'ઇક્સોરા પીળા',
     id: 68,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4g7GLs__Sgxfdtgwi7qiQTMFRjbsfslvhgcAnmSYD_g65YkJ193Kf14qefyU7zuJoKSs&usqp=CAU',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2065,12 +2069,13 @@ window.productsData = [
     ],
   },
   {
-    name: 'Axora White',
+    name: 'Exora White',
     gujarati_name: 'ઇક્સોરા સફેદ',
     id: 69,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFav3XjiUDOexEoEFE3VRZlWpTUC62e3Punx7QB-ggxAjaNfvWmCuDDtX-Saj43aktSMg&usqp=CAU',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2095,12 +2100,13 @@ window.productsData = [
     ],
   },
   {
-    name: 'Karan Mixra (Red/White/Yellow)',
-    gujarati_name: 'કરણ મિક્સ (લાલ/સફેદ/પીળા)',
+    name: 'kaner White',
+    gujarati_name: 'કરણ સફેદ',
     id: 70,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://dms.mydukaan.io/original/jpeg/media/7c9836d8-cb1a-46db-abf9-ea0200e4fb6e.png',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2130,7 +2136,8 @@ window.productsData = [
     id: 71,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjyUEVZjP81e0qwLWGb6REahFHiqEYj-bm3w&s',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2155,12 +2162,12 @@ window.productsData = [
     ],
   },
   {
-    name: 'Thailen Tikoma',
+    name: 'Thai Tecoma ',
     gujarati_name: 'થાઇલેન્ડ ટીકોમા',
     id: 72,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image: 'https://m.media-amazon.com/images/I/519XF4hk0jL.jpg',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2190,7 +2197,8 @@ window.productsData = [
     id: 73,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://m.media-amazon.com/images/I/51-OGnVTOaL._UF1000,1000_QL80_.jpg',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2220,7 +2228,8 @@ window.productsData = [
     id: 74,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSyck-jGZ_ymKd-K0nH6aHljOYZDWbNa8jKIIRyMw8cyHrTVMF28Je03PsC8ihzy5bBFk&usqp=CAU',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2245,14 +2254,14 @@ window.productsData = [
     ],
   },
 
-
   {
-    name: 'Jat ropa',
+    name: 'Jatropha',
     gujarati_name: 'જાટ્રોપા',
     id: 75,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkGcxbziAlBU_2VnQcrOXqe8FRteccQ0nRoGqD-KADgSTbgq0uTXN8fpQ_mnyr90IhFfg&usqp=CAU',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2277,12 +2286,12 @@ window.productsData = [
     ],
   },
   {
-    name: 'Gulab Kasmiri',
+    name: 'Rose Kasmiri',
     gujarati_name: 'કાશ્મીરી ગુલાબ',
     id: 76,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image: 'https://www.thetreecenter.com/c/uploads/kashmir-rose-2-600x399.jpg',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2307,12 +2316,13 @@ window.productsData = [
     ],
   },
   {
-    name: 'White Gulab',
+    name: 'White Rose',
     gujarati_name: 'સફેદ ગુલાબ',
     id: 77,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKCYcAAeVngSlHc1oexuq_RvQNSHzrw1L8ZQ&s',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2337,12 +2347,13 @@ window.productsData = [
     ],
   },
   {
-    name: 'Aelamenda Pela',
+    name: 'Allamanda Yellow',
     gujarati_name: 'એલામેંડા પીળા',
     id: 78,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0K9v3I-n3buCdxWD0U7IAXUDCxVufeR2yPXuK1NRvojJHDXbU21qmTZ0Phtf9RVu-knc&usqp=CAU',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2367,72 +2378,13 @@ window.productsData = [
     ],
   },
   {
-    name: 'Draf Oro',
-    gujarati_name: 'ડ્રાફ ઓરો',
-    id: 79,
-    price: 80,
-    plantype: 'outdoor',
-    image: null,
-    total_qty: 10,
-    age_months: 5,
-    height_cm: 10,
-    pot_size_cm: 10,
-    growth_rate: 'moderate',
-    sunlight: 'full-sun',
-    care_level: 'easy',
-    return_policy_days: 3,
-    replacement_policy: '',
-    warranty: '',
-    handling_time_days: 2,
-    shipping_weight_g: 800,
-    description:
-      'Draf Oro is an ornamental plant with unique foliage. It is commonly used for landscape gardening due to its decorative appeal.',
-    advantages: [
-      {
-        key: 'Strong ornamental plant.',
-      },
-      {
-        key: 'Ideal for landscaping.',
-      },
-    ],
-  },
-  {
-    name: 'Drecena',
-    gujarati_name: 'ડ્રેસિના',
-    id: 80,
-    price: 80,
-    plantype: 'outdoor',
-    image: null,
-    total_qty: 10,
-    age_months: 5,
-    height_cm: 10,
-    pot_size_cm: 10,
-    growth_rate: 'moderate',
-    sunlight: 'full-sun',
-    care_level: 'easy',
-    return_policy_days: 3,
-    replacement_policy: '',
-    warranty: '',
-    handling_time_days: 2,
-    shipping_weight_g: 800,
-    description:
-      'Dracaena (Dreshina) is a popular indoor plant that requires very little care. It is also known for its ability to purify indoor air.',
-    advantages: [
-      {
-        key: 'Popular indoor plant.',
-      },
-      {
-        key: 'Improves air quality.',
-      },
-    ],
-  },
-  {
     name: 'Hemalia Dwarf',
     gujarati_name: 'હિમાલિયા ડ્રાફ',
     id: 81,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://m.media-amazon.com/images/I/71-BY9IcALL._UF894,1000_QL80_.jpg',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2462,7 +2414,8 @@ window.productsData = [
     id: 82,
     price: 80,
     plantype: 'outdoor',
-    image: null,
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzIeF73iaXlVMhaCN9fwBQK8NABCryqtzZCQ&s',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2492,7 +2445,8 @@ window.productsData = [
     id: 83,
     price: 80,
     plantype: 'outdoor',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Az-RB03D9DHJuFZRLvMZPzmDKTZ3UcdkPw&s',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Az-RB03D9DHJuFZRLvMZPzmDKTZ3UcdkPw&s',
     total_qty: 10,
     age_months: 5,
     height_cm: 10,
@@ -2509,11 +2463,68 @@ window.productsData = [
       'Petra Croton is admired for its colorful foliage with shades of red, yellow, and green. It is widely used as an ornamental indoor plant.',
     advantages: [
       { key: 'Colorful foliage.' },
-      { key: 'Perfect for indoor decoration.' }
-    ]
-  }
-
-
-
-
+      { key: 'Perfect for indoor decoration.' },
+    ],
+  },
+  {
+    name: 'kaner Red',
+    gujarati_name: 'કરણ લાલ',
+    id: 84,
+    price: 80,
+    plantype: 'outdoor',
+    image: 'https://m.media-amazon.com/images/I/51Vn+EuutYL.jpg',
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Karan Mixra is a versatile ornamental plant that comes in multiple colors including red, white, and yellow. It is perfect for creating vibrant landscaping.',
+    advantages: [
+      {
+        key: 'Multiple color variety.',
+      },
+      {
+        key: 'Best for ornamental gardening.',
+      },
+    ],
+  },
+  {
+    name: 'kaner Yellow',
+    gujarati_name: 'કરણ પીળા',
+    id: 85,
+    price: 80,
+    plantype: 'outdoor',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1TQ4DH4abNLNM6lLxPMP_Mjp7sJGXA6bwWw&s',
+    total_qty: 10,
+    age_months: 5,
+    height_cm: 10,
+    pot_size_cm: 10,
+    growth_rate: 'moderate',
+    sunlight: 'full-sun',
+    care_level: 'easy',
+    return_policy_days: 3,
+    replacement_policy: '',
+    warranty: '',
+    handling_time_days: 2,
+    shipping_weight_g: 800,
+    description:
+      'Karan Mixra is a versatile ornamental plant that comes in multiple colors including red, white, and yellow. It is perfect for creating vibrant landscaping.',
+    advantages: [
+      {
+        key: 'Multiple color variety.',
+      },
+      {
+        key: 'Best for ornamental gardening.',
+      },
+    ],
+  },
 ]
